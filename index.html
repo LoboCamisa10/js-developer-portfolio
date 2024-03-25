@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Import Seta para baixo -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Import font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Imports CSS's StylesSheets  -->
+    <link rel="stylesheet" href="./css/media-screen.css">
+    <link rel="stylesheet" href="./css/global.css">  
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./img/photos/foto.jpg">
+    <link rel="stylesheet" href="./css/history.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/courses.css">
+    <link rel="stylesheet" href="./css/projects.css">
+
+</head>
+<body>
+
+    <section class="header-full">
+
+        <h3>Olá, eu sou o Augusto,<br>
+            Desenvolvedor de Software Junior.
+            <br>
+            <p id="text1">Este é o meu primeiro site e tem como objetivo entender mais sobre
+                programação e entender meus erros sobre front-end para corrigi-los.
+                <br>
+
+                Além de criar um Portfolio Pessoal sobre minha jornada na programação.
+                <br>
+                <button class="button">Download Resume</button>
+            </p>
+        </h3>
+        
+        <div class="header-part2">
+            <p>
+                <img src="./img/photos/foto.jpg" alt="Foto de Augusto" class="photo">
+            </p>
+            
+            <div class="space"></div>
+    
+            <section class="contatos">
+                <ul class="contatos-direto" id="grid">
+
+                    <a id="column" class="linkedin-img " href="https://www.linkedin.com/in/augusto-pires-pereira-630b41274/" target="_blank">Linkedin</a>
+
+                    <a id="column" class="github-img " href="https://github.com/LoboCamisa10" target="_blank">Github</a>
+
+                    <a id="column" class="gmail-img " href="mailto:guto2204@gmail.com" target="_blank">Gmail</a>
+
+                    <a id="column" class="phone-img " href="tel:(061)986539644" target="_blank">Phone</a>
+                </ul>
+            </section>
+        </div>
+
+        <div class="arrow">
+            <span></span>
+            <span></span>
+        </div>
+
+    </section>
+
+    <section class="little-history open">
+        <button class="trigger" type="button">
+            <p id="text2">Uma pequena introdução sobre mim...</p>
+        </button>
+        <p class="historia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque a fugit asperiores necessitatibus dicta saepe quo excepturi eius laborum consequatur dolorum, quos accusamus, culpa omnis quibusdam, est corrupti illo laudantium?</p>
+    </section>
+
+    <section class="container-skills open">
+
+        <button id="btn-skills" class="trigger" type="button">
+            <p id="text3"> Linguagens de programação e qualidades prossionais...</p>
+        </button>
+
+        <div class="my-skills">
+    
+            <section class="skills-tools">
+                <h3>Ferramentas:</h3>
+                <ul>
+                    <li>
+                        <img src="./img/icons/python-img.svg" id="python-img" alt="python-img" title="python-img">
+                        <img src="./img/icons/javascript-img.svg" id="javascript-img" alt="javascript-img" title="javascript">
+                        <img src="./img/icons/css-img.svg" id="css-img" alt="css-img" title="css-img">
+                        <img src="./img/icons/html-img.svg" id="html-img" alt="html-img" title="html-img">
+                    </li>
+                </ul>
+            </section>
+    
+            <section class="skills-text">
+                <h3>Habilidades pessoais:</h3>
+                <ul>
+                    <li>Bom ouvinte</li>
+                    <li>Trabalho em equipe</li>
+                    <li>Organizado</li>
+                    <li>Focado</li>
+                </ul>
+            </section>
+    
+        </div>
+
+    </section>
+
+    <section class="my-courses open">
+        
+        <button id="btn-my-courses" class="trigger" type="button">
+            <p id="text4">Cursos completos e em andamento...</p>
+        </button>
+
+        <div class="courses">
+            <ul class="all-courses">
+                <li id="courses-letters" class="cs50-harvard">
+                    cs50-harvard
+                </li>
+                <li id="courses-letters" class="dio-javascript-developer">
+                    dio-javascript-developer
+                </li>
+                <li id="courses-letters" class="dio-potencia-tech-ifood">
+                    dio-potencia-tech-ifood
+                </li>
+                <li id="courses-letters" class="python-guanabara ">
+                    python-guanabara 
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="my-projects open">
+
+        <button id="btn-projects" class="trigger" type="button">
+           <p id="text5" >Meus projetos finalizados.</p> </button>
+
+        <ul class="all-projects">
+            <li id="project-letters" class="projeto1">
+                Url projeto 1
+            </li>
+    
+            <li id="project-letters" class="projeto2">
+                Url projeto 2
+            </li>
+            <li id="project-letters" class="projeto3">
+                Url projeto 3
+            </li>
+
+        </ul>
+    </section>
+
+    <script src="./javascript/behavior.js"></script>
+
+</body>
+</html>

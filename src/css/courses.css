@@ -1,0 +1,83 @@
+.my-courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.my-courses.open{
+    background-color:#abcff8;
+    margin: 3rem;
+    border-radius: 1rem;
+}
+
+.my-courses .trigger{
+    padding: 1.2rem .5rem;
+    width: 80vw;
+    border-radius: 1rem;
+    background-color:#7991df;    
+    border-radius: 1rem;
+    margin: .8rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#text4{
+    padding: 1rem;
+    font-size: 1rem;
+    letter-spacing:.2rem;
+    font-weight: 900;
+    font-family:"Roboto", sans-serif;
+    color: #1b1c1c;
+}
+
+#text4::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(/src/img/icons/arrow-top.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    padding-left: 1.6rem;
+}
+
+.my-courses.open #text4::after{
+    margin-left: 1.9rem;
+    background-color: transparent;
+    padding-right: 5rem;
+    transform: rotate(360deg);
+}
+
+.my-courses .courses{
+    display: none;
+}
+
+.my-courses.open .courses{
+    display: inline-block;
+    width: 30vw;
+}
+
+.my-courses.open #btn-my-courses{
+    background-color: transparent;
+    border: none;
+}
+
+.all-courses{
+    padding: 1rem 1rem 3rem 1rem;
+}
+
+#courses-letters{
+    padding: 0.5rem;
+}
+
+/* #courses-letters::before{ DESENHO DE PROGRESSO
+    content: 'A';
+    display: inline-block; 
+    position: absolute;
+    padding-right: 3rem;
+    margin-right: 5rem;
+} */

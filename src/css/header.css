@@ -1,0 +1,255 @@
+.header-full{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-full h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: large;
+    padding: 1rem 1.5rem .1rem 6rem;
+    margin: .8rem;
+}
+
+#text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 2rem 2rem 2rem;
+    font-size:  1.1rem;
+    font-weight: 399;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.header-full p .photo{
+    width: 47vw;
+    height: auto;
+    margin: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+
+.space{
+    padding: 1rem;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos a{
+    display: flex;
+    flex-direction: column; /*AQUI MUDA PARA DEIXAR AS LEGENDAS DOS ICONES EM BAIXO OU A DIREITA(USAR NO TRATAMENTO DE TELA)*/
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 1rem 0rem 0rem ;
+}
+
+.contatos .contatos-direto{
+    display: flex;
+    flex-direction: row; /*AQUI MUDAO ITENS PRA COLUNA EM COMPLETO (USAR NO TRATAMENTO DE TELA)*/
+    align-items: center;
+    justify-content: center;
+    padding: 0rem .3rem .3rem .3rem;
+    width: 8vw;
+    height: 8vh;
+}
+
+.contatos .linkedin-img::before{
+    content: '';
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0%;
+    background-image: url(/src/img/icons/linkedin.svg);
+    width: 3rem;
+    height: 3rem;
+    padding: .4rem;
+}
+
+.contatos .github-img::before{
+    content: '';
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    padding: .4rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/src/img/icons/github.svg);
+    background-position: 0%;
+}
+
+.contatos .gmail-img::before{
+    content: '';
+    display: inline-block;
+    width: 4rem;
+    height: 3rem;
+    padding: .4rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/src/img/icons/gmail.svg);
+    background-position: 0%;
+}
+
+.contatos .phone-img::before{
+    content: '';
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    padding: .4rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/src/img/icons/phone.svg);
+    background-position: 0%;
+}
+
+#text2{
+    color: #000000;
+}
+
+.button{
+    margin-top: 1rem;
+    padding: .6rem 1rem;
+    display: flex;
+    justify-content: start;
+    background-color:blue ;
+    color:aliceblue;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}   
+
+.arrow {
+    width: 11vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.arrow span{
+    width: 10px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #10427c;
+    margin: 6px;
+    animation: move 1.1s infinite ease-in-out;
+    cursor: pointer;
+}
+
+.arrow span:nth-of-type(1){
+    transform: rotate(-45deg);
+}
+
+.arrow span:nth-of-type(2){
+    transform: rotate(45deg);
+}
+
+@keyframes move{
+    0%{margin-top: 0;}
+    50%{margin-top: 40px;}
+    100%{margin-top: 0;}
+}
+
+/* FAÇA O TRATAMENTO DE TELAS */
+@media only screen and (min-width: 768px){
+    .header-full p .photo{
+        width: 24.5vw;
+        height: auto;
+        margin: 2rem 3rem ;
+        border-radius: 4rem;
+        user-select: none;  
+        box-shadow: 5px 5px;
+    }
+    
+    .header-full h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: large;
+        padding: 3rem 1.5rem 0.1rem 2rem;
+        margin: .8rem 0rem 0rem 8rem;
+    }
+
+    .header-full{
+        display: grid;
+        grid-template-areas:
+        "grid ."
+        "text1 arrow "
+        "photo arrow ";
+    }
+
+    .header-full #text1{
+        grid-area: text1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-part2 p .photo{
+        grid-area: photo;
+    }
+
+    .arrow{
+        margin-left: 20rem;
+    }
+
+    .button{
+        margin: 6rem 17rem 1rem 1rem;
+        padding: .6rem 1rem;
+        display: flex;
+        justify-content: start;
+        background-color:blue ;
+        color:aliceblue;
+        border-radius: 1rem;
+        border: none;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+    .button:hover{
+        background-color: rgb(82, 82, 223);
+    }
+
+    .arrow {
+    width: 30vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+    .arrow span{
+        width: 10px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #10427c;
+        margin: 6px;
+        animation: move 1.1s infinite ease-in-out;
+    }
+
+    .arrow span:nth-of-type(1){
+        transform: rotate(-45deg);
+    }
+
+    .arrow span:nth-of-type(2){
+        transform: rotate(45deg);
+    }
+}

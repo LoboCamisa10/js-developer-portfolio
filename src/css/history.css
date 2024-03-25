@@ -1,0 +1,199 @@
+.little-history{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-top: 0.7rem;
+}
+
+.little-history .trigger{
+    padding: 2rem .5rem;
+    width: 80vw;
+    border-radius: 1rem;
+    background-color:#7991df;    
+    border-radius: 1rem;
+    margin: .8rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.little-history .trigger:hover{
+    background-color:#8bb6e7;
+}
+
+.little-history.open{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #abcff8;
+    color: black;
+    border-radius: 1rem;
+    margin: 3rem;
+}
+
+.little-history.open .trigger{
+    background-color: transparent;
+    color: black;
+    border-radius: 1rem;
+    margin: 1rem;
+    border: none;
+    transition: 0.75 ease-in;
+}
+
+.little-history.open .trigger:hover{
+    background-color: #abcff8;
+    color: black;
+    border-radius: 1rem;
+    border: none;
+}
+
+.little-history .trigger #text2{
+    font-size: 1rem;
+    letter-spacing:.2rem;
+    font-weight: 900;
+    font-family:"Roboto", sans-serif;
+    color: #1b1c1c;
+}
+
+.trigger #text2::after{ /*ARROW PRA BAIXO*/
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(/src/img/icons/arrow-top.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    padding-left: 3rem;
+}
+
+.little-history.open .trigger #text2::after{
+    margin-left: 3rem;
+    background-color: transparent; /*ARROW*/
+    padding-right: 5rem;
+    transform: rotate(360deg);
+
+}
+
+.little-history .historia{
+    overflow: hidden;
+    opacity: 0;
+    height: 0;
+    transition: opacity 0.35s ease-in-out;
+}
+
+.little-history.open .historia{
+    display: inline-block;
+    height: auto;
+    opacity: 1;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+@media only screen and (min-width: 768px){
+    .little-history{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 1rem 1rem 1rem;
+        margin-top: 0.7rem;
+    }
+    
+    .little-history .trigger{
+        padding: 2rem .5rem;
+        width: 80vw;
+        border-radius: 1rem;
+        background-color:#7991df;    
+        border-radius: 1rem;
+        margin: .8rem;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    
+    .little-history .trigger:hover{
+        background-color:#8bb6e7;
+    }
+    
+    .little-history.open{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #abcff8;
+        color: black;
+        border-radius: 1rem;
+        margin: 3rem;
+    }
+    
+    .little-history.open:hover{
+        background-color: #abcff8;
+        color: black;
+        border-radius: 1rem;
+    }
+    
+    .little-history.open .trigger{
+        background-color: transparent;
+        color: black;
+        border-radius: 1rem;
+        margin: 1rem;
+        border: none;
+        transition: 0.75 ease-in;
+    }
+    
+    .little-history.open .trigger:hover{
+        background-color: #abcff8;
+        color: black;
+        border-radius: 1rem;
+        border: none;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    
+    .little-history .trigger #text2{
+        font-size: 1rem;
+        letter-spacing:.2rem;
+        font-weight: 900;
+        font-family:"Roboto", sans-serif;
+        color: #1b1c1c;
+    }
+    
+    .trigger #text2::after{ 
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background-image: url(/src/img/icons/arrow-top.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: rotate(180deg);
+        padding-left: 3rem;
+    }
+    
+    .little-history.open .trigger #text2::after{
+        margin-left: 3rem;
+        background-color: transparent; 
+        padding-right: 5rem;
+        transform: rotate(360deg);
+    
+    }
+    
+    .little-history .historia{
+        overflow: hidden;
+        opacity: 0;
+        height: 0;
+        transition: opacity 0.35s ease-in-out;
+    }
+    
+    .little-history.open .historia{
+        display: inline-block;
+        height: auto;
+        opacity: 1;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+}

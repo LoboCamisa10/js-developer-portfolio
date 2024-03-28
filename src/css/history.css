@@ -86,10 +86,17 @@
 }
 
 .little-history.open .historia{
+    border: 1px solid blue;
     display: inline-block;
+    font-style: normal;
+    letter-spacing: 0.07rem;
+    word-spacing: .15rem;
+    font-size: 1.1rem;
+    font-weight: 400;
     height: auto;
     opacity: 1;
-    padding: 1rem;
+    margin: 0.3rem;
+    padding: 2rem;
     border-radius: 1rem;
 }
 

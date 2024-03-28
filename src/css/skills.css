@@ -93,9 +93,11 @@
 }
 
 .container-skills.open .my-skills{ 
+    border: 1px solid #0000ff;
     background-color:#abcff8;
     display: inline-block;
     align-items: center;
+    padding: 2rem;
     margin: 1rem;
     border-radius: 1rem;
 }

@@ -72,6 +72,7 @@
 
 .all-courses{
     padding: 1rem 1rem 1rem 1rem;
+    list-style: none;
 }
 
 #courses-letters{

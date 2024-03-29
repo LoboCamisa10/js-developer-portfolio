@@ -28,11 +28,22 @@ function updateHardSkills(profileData){
         return `<img src="${skill.logo}" alt="${skill.name}-img" title="${skill.name}-img">`}).join('')
 }
 
+function updateCouses(profileData){
+
+    const courses = document.getElementById('profile.courses')
+    courses.innerHTML =  profileData.skills.cursos.map(curso => {
+        return `
+        <li id="courses-letters" >
+        <img src="${curso.icon}">CS50 (Harvard) | Em andamento.
+        </li>`
+    })
+}
+
 (async () => {
 
     const profileData = await FetchProfileData()
     updateProfilePhoto(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
-    
+    updateCouses(profileData)
 })()

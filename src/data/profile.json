@@ -39,19 +39,29 @@
     "Espanhol (intermediário)",
     "Italiano (iniciante)"
   ],
-  "portfolio": [
+  "cursos": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Curso de Python 3 - Mundo 1, 2 e 3 (Guanabara)",
+      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/Python3%E2%80%93img.png",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Potência Tech iFood - Desenvolvimento de Jogos (DIO)",
+      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/GameDevelopmentDio.png",
+      "github": true
+    },
+    {
+      "name": "Formação JavaScript Developer (DIO)",
+      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/JavaScriptDeveloper.png",
+      "github": true
+    },
+    {
+      "name": "CS50 (Harvard)",
+      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/CS50.png",
       "github": true
     }
   ],
-  "professionalExperience": [
+  "projetos": [
     {
       "name": "Arquiteto de software / S3 BANK",
       "period": "2022 - até o momento",

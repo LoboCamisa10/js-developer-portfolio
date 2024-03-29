@@ -32,9 +32,8 @@ function updateCouses(profileData){
 
     const courses = document.getElementById('profile.courses')
     courses.innerHTML =  profileData.skills.cursos.map(curso => {
-        return `
-        <li id="courses-letters" >
-        <img src="${curso.icon}">CS50 (Harvard) | Em andamento.
+        return `<li id="courses-letters" >
+        <img src="${curso.icon}"> ${curso.name} | Em andamento.
         </li>`
     })
 }

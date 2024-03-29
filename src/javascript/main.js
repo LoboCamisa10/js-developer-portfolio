@@ -33,8 +33,10 @@ function updateCourses(profileData){
     const courses = document.getElementById('profile.courses')
     courses.innerHTML =  profileData.cursos.map(curso => {
         return `<li id="courses-letters" >
-        <img src="${curso.icon}"> ${curso.name} | <img src="${curso.state}" Em andamento.
-        </li>`
+        <img src="${curso.icon}"> ${curso.name} 
+        </li>
+        <img id="icon "src="${curso.state}">
+        `
     }).join('')
 }
 

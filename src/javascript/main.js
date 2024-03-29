@@ -11,18 +11,28 @@ function updateProfilePhoto(profileData){
 
     const location = document.getElementById('profile.location')
     location.innerText  = profileData.location
-
     
 }
 
 function updateSoftSkills(profileData){
+
     const softSkills = document.getElementById('profile.softskills')
     softSkills.innerHTML = profileData.skills.softSkills.map(skill => {
        return `<li>${skill}</li>`} ).join('')
 }
 
-(async ()=>{
+function updateHardSkills(profileData){
+
+    const HardSkills = document.getElementById('profile.hardskills')
+    HardSkills.innerHTML = profileData.skills.hardSkills.map(skill => {
+        return `<img src="${skill.logo}" alt="${skill.name}-img" title="${skill.name}-img">`}).join('')
+}
+
+(async () => {
+
     const profileData = await FetchProfileData()
     updateProfilePhoto(profileData)
     updateSoftSkills(profileData)
+    updateHardSkills(profileData)
+    
 })()

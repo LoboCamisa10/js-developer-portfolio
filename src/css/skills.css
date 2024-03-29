@@ -75,6 +75,7 @@
     list-style: none;
 
 }
+
 .skills-text{
     display: flex;
     flex-direction: column;
@@ -102,18 +103,9 @@
     border-radius: 1rem;
 }
 
-.skills-tools #python-img{
-    max-width: 3rem;
-    margin: .5rem;
-}
-
-.skills-tools #javascript-img{
-    max-width: 3rem;
-    margin: .5rem;
-}
-
-.skills-tools #css-img{
-    max-width: 3rem;
+.skills-tools li img{
+    max-width: 3.1rem;
+    min-height: 3.1rem;
     margin: .5rem;
 }
 
@@ -121,7 +113,6 @@
     max-width: 3rem;
     margin: 0.5rem;
 }
-
 
 @media only screen and (min-width: 768px){
     .container-skills{
@@ -255,4 +246,9 @@
         margin: 0.5rem;
     }
 
+    .skills-tools li img{
+        max-width: 3.1rem;
+        min-height: 3.1rem;
+        margin: .5rem;
+    }
 }

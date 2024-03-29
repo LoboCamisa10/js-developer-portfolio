@@ -11,14 +11,18 @@ function updateProfilePhoto(profileData){
 
     const location = document.getElementById('profile.location')
     location.innerText  = profileData.location
+
     
 }
 
-function updateProfileName(profileData){
-    
+function updateSoftSkills(profileData){
+    const softSkills = document.getElementById('profile.softskills')
+    softSkills.innerHTML = profileData.skills.softSkills.map(skill => {
+       return `<li>${skill}</li>`} ).join('')
 }
 
 (async ()=>{
     const profileData = await FetchProfileData()
     updateProfilePhoto(profileData)
+    updateSoftSkills(profileData)
 })()

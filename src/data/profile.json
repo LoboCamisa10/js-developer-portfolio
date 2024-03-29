@@ -12,34 +12,27 @@
         "logo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/data/imgs/python.png"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/369e5ea715c953b7a451ae6bddb42009e029a782/src/data/imgs/javascript-img.svg"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/data/imgs/css.png"
       },
       {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-      },
-      {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/data/imgs/html.png"
       }
     ],
     "softSkills": [
       "Bom ouvinte",
-      "Liderança",
+      "Facilidade de comunicação",
       "Trabalho em equipe",
-      "Flexibilidade",
-      "Organização"
+      "Organizado",
+      "Focado"
     ]
   },
+  
   "languages": [
     "Português BR",
     "Inglês (intermediário)",

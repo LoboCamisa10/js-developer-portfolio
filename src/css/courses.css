@@ -168,7 +168,7 @@
     }
     
     #courses-letters{
-        padding: 0.5rem;
+        padding-bottom: 0rem;
         font-size: large;
     }
     
@@ -176,7 +176,7 @@
         max-width: 2.8rem;
         max-height: 2.8rem;
         padding: 0.2rem;
-        margin: 1rem;
+
     }
 
 }

@@ -32,7 +32,6 @@
       "Focado"
     ]
   },
-  
   "languages": [
     "Português BR",
     "Inglês (intermediário)",
@@ -41,24 +40,24 @@
   ],
   "cursos": [
     {
-      "name": "Curso de Python 3 - Mundo 1, 2 e 3 (Guanabara)",
-      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/Python3%E2%80%93img.png",
-      "github": true
-    },
-    {
-      "name": "Potência Tech iFood - Desenvolvimento de Jogos (DIO)",
-      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/GameDevelopmentDio.png",
-      "github": true
+      "name": "CS50 (Harvard)",
+      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/CS50.png",
+      "state": "/src/img/courses/trabalho-em-progresso.png"
     },
     {
       "name": "Formação JavaScript Developer (DIO)",
       "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/JavaScriptDeveloper.png",
-      "github": true
+      "state": "/src/img/courses/verificado.png"
     },
     {
-      "name": "CS50 (Harvard)",
-      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/CS50.png",
-      "github": true
+      "name": "Potência Tech iFood - Desenvolvimento de Jogos (DIO)",
+      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/GameDevelopmentDio.png",
+      "state": "/src/img/courses/verificado.png"
+    },
+    {
+      "name": "Curso de Python 3 - Mundo 1, 2 e 3 (Guanabara)",
+      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/Python3%E2%80%93img.png",
+      "state": "/src/img/courses/verificado.png"
     }
   ],
   "projetos": [

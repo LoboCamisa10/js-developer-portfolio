@@ -28,14 +28,14 @@ function updateHardSkills(profileData){
         return `<img src="${skill.logo}" alt="${skill.name}-img" title="${skill.name}-img">`}).join('')
 }
 
-function updateCouses(profileData){
+function updateCourses(profileData){
 
     const courses = document.getElementById('profile.courses')
-    courses.innerHTML =  profileData.skills.cursos.map(curso => {
+    courses.innerHTML =  profileData.cursos.map(curso => {
         return `<li id="courses-letters" >
-        <img src="${curso.icon}"> ${curso.name} | Em andamento.
+        <img src="${curso.icon}"> ${curso.name} | <img src="${curso.state}" Em andamento.
         </li>`
-    })
+    }).join('')
 }
 
 (async () => {
@@ -44,5 +44,6 @@ function updateCouses(profileData){
     updateProfilePhoto(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
-    updateCouses(profileData)
+    updateCourses(profileData)
+
 })()

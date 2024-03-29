@@ -72,12 +72,18 @@
 
 .all-courses{
     padding: 1rem 1rem 1rem 1rem;
-    list-style: none;
 }
 
 #courses-letters{
     padding: 0.5rem;
+    font-size: large;
 }
+
+#courses-letters img{
+    max-width: 2.8rem;
+    max-height: 2.8rem;
+}
+
 
 @media only screen and (min-width: 768px ){ 
     .my-courses{

@@ -8,8 +8,8 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "Python",
+        "logo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/data/imgs/python.png"
       },
       {
         "name": "Java",
@@ -33,7 +33,7 @@
       }
     ],
     "softSkills": [
-      "Empatia",
+      "Bom ouvinte",
       "Liderança",
       "Trabalho em equipe",
       "Flexibilidade",

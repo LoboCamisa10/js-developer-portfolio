@@ -42,7 +42,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     transform: rotate(180deg);
-    padding-left: 1.6rem;
+    padding-left: .9rem;
 }
 
 .my-projects.open #text5::after{

@@ -91,7 +91,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0%;
-    background-image: url(/src/img/icons/linkedin.svg);
+    background-image: url(../img/icons/linkedin.svg);
     width: 3rem;
     height: 3rem;
     padding: .4rem;
@@ -105,7 +105,7 @@
     padding: .4rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/src/img/icons/github.svg);
+    background-image: url(../img/icons/github.svg);
     background-position: 0%;
 }
 
@@ -117,7 +117,7 @@
     padding: .4rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/src/img/icons/gmail.svg);
+    background-image: url(../img/icons/gmail.svg);
     background-position: 0%;
 }
 
@@ -129,7 +129,7 @@
     padding: .4rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/src/img/icons/phone.svg);
+    background-image: url(../img/icons/phone.svg);
     background-position: 0%;
 }
 

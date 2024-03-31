@@ -45,7 +45,10 @@ function updateProjects(profileData){
         return `
         <li id="project-letters">
             <p>
-                ${projeto.name}    
+                <img src="/src/img/icons/github.svg">${projeto.name}
+            </p>
+            <p>
+                ${projeto.url}
             </p>
         </li>`
     })
@@ -58,5 +61,6 @@ function updateProjects(profileData){
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateCourses(profileData)
+    updateProjects(profileData)
 
 })()

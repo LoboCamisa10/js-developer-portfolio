@@ -8,6 +8,10 @@
 
 }
 
+body{
+    background-image: linear-gradient(to right, #bdece5, #ffffff);
+}
+
 .contatos a{
     color: #000000;
     text-decoration: none; /*RETIRA O UNDERLINE DO TEXTO DE LINK*/

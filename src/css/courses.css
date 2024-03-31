@@ -88,7 +88,9 @@
     max-width: 2.8rem;
     max-height: 2.8rem;
 }
-
+#courses-letters{
+    padding: 0.5rem;
+}
 
 @media only screen and (min-width: 768px ){ 
     .my-courses{

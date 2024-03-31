@@ -32,10 +32,23 @@ function updateCourses(profileData){
 
     const courses = document.getElementById('profile.courses')
     courses.innerHTML =  profileData.cursos.map(curso => {
-        return `<li id="courses-letters" >
+        return `
+        <li id="courses-letters" >
         <img id='icon' src="${curso.state}"> &nbsp;${curso.name}</a>  &nbsp; <img src="${curso.icon}">
         </li> `
     }).join('')
+}
+
+function updateProjects(profileData){
+    const projects = document.getElementById('all-projects')
+    projects.innerHTML = profileData.projetos.map(projeto =>{
+        return `
+        <li id="project-letters">
+            <p>
+                ${projeto.name}    
+            </p>
+        </li>`
+    })
 }
 
 (async () => {

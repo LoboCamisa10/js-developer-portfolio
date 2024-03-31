@@ -67,7 +67,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     transform: rotate(180deg);
-    padding-left: 3rem;
+    padding-left: 1.3rem;
 }
 
 .little-history.open .trigger #text2::after{

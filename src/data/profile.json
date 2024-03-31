@@ -64,16 +64,16 @@
   ],
   "projetos": [
     {
-      "name": "Criando um game de JO KEN PO de Yu-Gi-Oh",
-      "url": "https://github.com/LoboCamisa10/Yu_gi_oh"
+      "name":"Criando uma página pessoal de porfolio pessoal",
+      "url": "https://github.com/LoboCamisa10/js-developer-portfolio"
     },
     {
-      "name": "Criando uma pokedex usando uma API",
+      "name": "Criando uma pokedex usando API",
       "url": "https://github.com/LoboCamisa10/js-developer-pokedex"
     },
     {
-      "name":"Criando uma página pessoal de porfolio pessoal",
-      "url": "https://github.com/LoboCamisa10/js-developer-portfolio"
+      "name": "Criando um game de JO KEN PO de Yu-Gi-Oh",
+      "url": "https://github.com/LoboCamisa10/Yu_gi_oh"
     }
   ]
 }

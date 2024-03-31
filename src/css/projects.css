@@ -23,6 +23,11 @@
     transition: 0.5s ease;
 }
 
+.my-projects .trigger:hover{
+    background-color:#8bb6e7;
+}
+
+
 #text5{
     padding: 1rem;
     font-size: 1rem;
@@ -58,7 +63,7 @@
 
 .my-projects.open .all-projects{
     display: flex;
-    width: 40vw;
+    width: 50vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -81,9 +86,43 @@
     padding: 1rem 1rem 3rem 1rem;
 }
 
-#courses-letters{
-    padding: 0.5rem;
+.all-projects #project-letters img{
+    max-width: 1.6rem;
+    min-height: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.all-projects #project-letters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45vw;
+    font-size: larger;
+}
+
+.all-projects #project-letters a{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:larger;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.9 ease;
+}
+
+.all-projects #project-letters a:hover{
+    color: #5c0377;
+    transition: ease 0.5s;
+
+}
+
 
 @media only screen and (min-width: 768px){
     .my-projects{

@@ -40,18 +40,18 @@ function updateCourses(profileData){
 }
 
 function updateProjects(profileData){
-    const projects = document.getElementById('all-projects')
-    projects.innerHTML = profileData.projetos.map(projeto =>{
+
+    const projects = document.getElementById('profile.projects')
+    projects.innerHTML = profileData.projetos.map(projeto => {
         return `
         <li id="project-letters">
-            <p>
-                <img src="/src/img/icons/github.svg">${projeto.name}
+            <p id="name-projeto">
+                <img src="/src/img/icons/github.svg">
+                 <a id="url-projeto" href="${projeto.url}" target ="_blank">${projeto.name}</a>
             </p>
-            <p>
-                ${projeto.url}
-            </p>
+            
         </li>`
-    })
+    }).join('')
 }
 
 (async () => {

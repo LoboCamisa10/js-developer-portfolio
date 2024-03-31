@@ -46,7 +46,7 @@ function updateProjects(profileData){
         return `
         <li id="project-letters">
             <p id="name-projeto">
-                <img src="/src/img/icons/github.svg">
+                <img src="../img/icons/github.svg">
                  <a id="url-projeto" href="${projeto.url}" target ="_blank">${projeto.name}</a>
             </p>
             

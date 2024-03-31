@@ -50,7 +50,7 @@
 }
 
 .my-projects.open #text5::after{
-    margin-left: 1.9rem;
+    margin-left: 0.4rem;
     background-color: transparent;
     padding-right: 5rem;
     transform: rotate(360deg);

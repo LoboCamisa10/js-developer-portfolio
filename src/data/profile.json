@@ -1,6 +1,6 @@
 {
   "name": "Augusto Pires",
-  "photo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/photos/foto.jpg",
+  "photo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master../img/photos/foto.jpg",
   "job": "Desenvolvedor de Software Junior.",
   "location": "Brasil - DF",
   "phone": "(61)986539644",
@@ -9,19 +9,19 @@
     "hardSkills": [
       {
         "name": "Python",
-        "logo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/data/imgs/python.png"
+        "logo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master../data/imgs/python.png"
       },
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/data/imgs/js.png"
+        "logo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master../data/imgs/js.png"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/data/imgs/css.png"
+        "logo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master../data/imgs/css.png"
       },
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/data/imgs/html.png"
+        "logo": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master../data/imgs/html.png"
       }
     ],
     "softSkills": [
@@ -41,25 +41,25 @@
   "cursos": [
     {
       "name": "CS50 (Harvard)",
-      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/CS50.png",
-      "state": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/trabalho-em-progresso%20(2).png"
+      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master../img/courses/CS50.png",
+      "state": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master../img/courses/trabalho-em-progresso%20(2).png"
 
     },
     {
       "name": "Formação JavaScript Developer (DIO)",
-      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/JavaScriptDeveloper.png",
-      "state": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/correto.png"
+      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master../img/courses/JavaScriptDeveloper.png",
+      "state": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master../img/courses/correto.png"
 
     },
     {
       "name": "Potência Tech iFood - Desenvolvimento de Jogos (DIO)",
-      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/GameDevelopmentDio.png",
-      "state": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/correto.png"
+      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master../img/courses/GameDevelopmentDio.png",
+      "state": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master../img/courses/correto.png"
     },
     {
       "name": "Curso de Python 3 - Mundo 1, 2 e 3 (Guanabara)",
-      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/Python3%E2%80%93img.png",
-      "state": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master/src/img/courses/correto.png"
+      "icon": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master../img/courses/Python3%E2%80%93img.png",
+      "state": "https://raw.githubusercontent.com/LoboCamisa10/js-developer-portfolio/master../img/courses/correto.png"
     }
   ],
   "projetos": [

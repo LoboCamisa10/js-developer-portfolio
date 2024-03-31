@@ -63,7 +63,7 @@
     position: absolute;
     width: 2rem;
     height: 2rem;
-    background-image: url(/src/img/icons/arrow-top.png);
+    background-image: url(../img/icons/arrow-top.png);
     background-size: contain;
     background-repeat: no-repeat;
     transform: rotate(180deg);

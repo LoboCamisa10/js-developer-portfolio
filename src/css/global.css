@@ -12,6 +12,16 @@ body{
     background-image: linear-gradient(to right, #bdece5, #ffffff);
 }
 
+.all-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border: 1px solid #000000;
+    border-radius: 2rem;
+}
+
 .contatos a{
     color: #000000;
     text-decoration: none; /*RETIRA O UNDERLINE DO TEXTO DE LINK*/
@@ -21,4 +31,27 @@ body{
     text-decoration: underline;
 }
 
-/* fazer a media screen para desktop ( pc) */
+@media only screen and (min-width: 768px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;   /*NÃO USE OVER FLOW NO CORPO COMPLETO*/
+        font-size: medium;
+    
+    }
+    
+    body{
+        background-image: linear-gradient(to right, #bdece5, #ffffff);
+    }
+    
+    .contatos a{
+        color: #000000;
+        text-decoration: none; /*RETIRA O UNDERLINE DO TEXTO DE LINK*/
+    }
+    .contatos a:hover{
+        color: #10427c;
+        text-decoration: underline;
+    }
+}

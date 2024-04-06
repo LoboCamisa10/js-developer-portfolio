@@ -22,10 +22,6 @@
 
 .header-full .h3{
     font-style: normal;
-    font-weight: 400;
-    font-size: .9rem;
-}
-.header-full .h3 #bold{
     font-weight: bold;
     font-size: 1.1rem;
 }

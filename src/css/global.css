@@ -12,7 +12,7 @@ body{
     background-image: linear-gradient(to right, #bdece5, #ffffff);
 }
 
-.all-page{
+/* .all-page{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +20,7 @@ body{
     margin: 1rem;
     border: 1px solid #000000;
     border-radius: 2rem;
-}
+} */
 
 .contatos a{
     color: #000000;

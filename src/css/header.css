@@ -21,8 +21,6 @@
 }
 
 .header-full .h3{
-
-
     font-style: normal;
     font-weight: bold;
     font-size: 1.4rem;
@@ -66,19 +64,32 @@
     align-items: center;
 }
 
-.logo{
-    padding: 0rem;
+.header-full .apresentation .ola{
+    font-size: 1.22rem;
+    font-style: italic;
+}
+
+.header-full .apresentation span{
+    font-size: 1.22rem;
+    font-style: italic;
+}
+
+.header-full .apresentation .bold{
+    font-size: 1.4rem;
+}
+
+.header-full .apresentation .space{
+    padding: .3rem;
 }
 
 .logo img{
     border: 2px solid #fdb997;
-    margin: 1rem;
-    width: 4.1rem;
-    height: 4.1rem;
+    margin: 0.5rem 1rem 2rem 0rem;
+    width: 3.6rem;
+    height: 3.6rem;
     border-radius: 100%;
     position: relative;
-    top: 20%;
-    left: -80%;
+    left: -110%;
 }
 
 
@@ -225,6 +236,40 @@
 
 /* FAÇA O TRATAMENTO DE TELAS */
 @media only screen and (min-width: 768px){
+    .header-full .logoRow{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header-full .apresentation .ola{
+        font-size: 1.22rem;
+        font-style: italic;
+    }
+    
+    .header-full .apresentation span{
+        font-size: 1.22rem;
+        font-style: italic;
+    }
+    
+    .header-full .apresentation .bold{
+        font-size: 1.4rem;
+    }
+    
+    .header-full .apresentation .space{
+        padding: .3rem;
+    }
+    
+    .logo img{
+        border: 2px solid #fdb997;
+        margin: 0.5rem 3rem 9rem 3rem;
+        width: 3.6rem;
+        height: 3.6rem;
+        border-radius: 100%;
+        position: relative;
+        left: -140%;
+    }
     .header-full p .photo{
         width: 24.5vw;
         height: auto;
@@ -264,6 +309,19 @@
         margin-left: 20rem;
     }
 
+    #text1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem 2rem 2rem 2rem;
+        font-size:  1.1rem;
+        font-weight: 400;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        border: 1px solid red;
+        border-radius: 1rem;
+    }
+    
     .button{
         margin: 6rem 17rem 1rem 1rem;
         padding: .6rem 1rem;

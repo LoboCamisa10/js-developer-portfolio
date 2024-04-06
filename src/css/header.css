@@ -21,17 +21,17 @@
 }
 
 .header-full .h3{
+
+
     font-style: normal;
     font-weight: bold;
-    font-size: 1.5rem;
-}
-
-.header-full .ola{
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 .header-full .eu{
-    font-size: 1.3rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
 }
 
 .location{
@@ -53,9 +53,34 @@
     padding: 1.5rem 2rem 2rem 2rem;
     font-size:  1.1rem;
     font-weight: 400;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-right: 1rem;
+    border: 1px solid red;
+    border-radius: 1rem;
 }
+
+.header-full .logoRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    padding: 0rem;
+}
+
+.logo img{
+    border: 2px solid #fdb997;
+    margin: 1rem;
+    width: 4.1rem;
+    height: 4.1rem;
+    border-radius: 100%;
+    position: relative;
+    top: 20%;
+    left: -80%;
+}
+
 
 .header-full p .photo{
     display: flex;

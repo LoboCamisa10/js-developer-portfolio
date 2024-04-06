@@ -58,10 +58,10 @@
 }
 
 .header-full p .photo{
-    width: 47vw;
+    width: min(25rem, 90%);
     height: auto;
     margin: 2rem;
-    border-radius: 2rem;
+    border-radius: 100%;
     user-select: none;
 
 }

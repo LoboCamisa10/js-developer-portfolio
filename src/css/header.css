@@ -22,8 +22,11 @@
 
 .header-full .h3{
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: large;
+}
+.header-full .h3 #bold{
+    font-weight: bold;
 }
 
 .location{

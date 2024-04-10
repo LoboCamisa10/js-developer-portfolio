@@ -53,7 +53,7 @@
     font-weight: 400;
     margin-top: 1rem;
     margin-right: 1rem;
-    border: 1px solid #972f2a6b;
+    border: 2px solid #000000;
     border-radius: 1rem;
 }
 
@@ -71,7 +71,7 @@
 
 .header-full .apresentation span{
     font-size: 1.22rem;
-
+    margin-bottom: 1rem;
 }
 
 .header-full .apresentation .bold{
@@ -80,11 +80,11 @@
 }
 
 .header-full .apresentation .space{
-    padding: 0rem;
+    padding:0rem 0rem 1rem;
 }
 
 .logo img{
-    border: 2px solid #fdb997;
+    border: 2px solid #000000;
     margin: 0.5rem 1rem 2rem 0rem;
     width: 3.6rem;
     height: 3.6rem;
